@@ -11,13 +11,13 @@ def exists():
 @check50.check(exists)
 def test01():
     """input of 1 displays January"""
-    check50.run("calender.py").stdin("1").stdout("January")
+    check50.run("calender.py").stdin("1").stdout(num(January), "January\n").exit(0)
 
 
 @check50.check(exists)
 def test02():
     """input of 2 displays February"""
-    check50.run("calender.py").stdin("2").stdout("February").exit()
+    check50.run("calender.py").stdin("2").stdout("February").exit(0)
 
 
 @check50.check(exists)
