@@ -11,7 +11,7 @@ def exists():
 @check50.check(exists)
 def test01():
     """input of 1 displays January"""
-    check50.run("calender.py").stdin("1").stdout("January").exit()
+    check50.run("calender.py").stdin("1").stdout("January")
 
 
 @check50.check(exists)
