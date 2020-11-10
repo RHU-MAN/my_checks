@@ -13,5 +13,5 @@ def compiles():
 
 @check50.check(compiles)
 def hello():
-    """hello"""
+    """Hello, world!"""
     check50.run("./hello").exit()
