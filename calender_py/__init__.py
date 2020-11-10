@@ -1,10 +1,12 @@
 import check50
+import check50.py
 
 
 @check50.check()
 def exists():
     """calender.py exists"""
     check50.exists("calender.py")
+    check50.include("lookmonth.py")
 
 
 
