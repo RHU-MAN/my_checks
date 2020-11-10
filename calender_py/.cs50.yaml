@@ -1,0 +1,44 @@
+check50:
+  checks:
+    calender:
+      - run: python3 calender.py
+        stdin: 1 
+        stdout: January
+      - run: python3 calender.py
+        stdin: 2 
+        stdout: February  
+      - run: python3 calender.py
+        stdin: 3 
+        stdout: March  
+      - run: python3 calender.py
+        stdin: 4 
+        stdout: April  
+      - run: python3 calender.py
+        stdin: 5 
+        stdout: May  
+      - run: python3 calender.py
+        stdin: 6 
+        stdout: June  
+      - run: python3 calender.py
+        stdin: 7 
+        stdout: July
+      - run: python3 calender.py
+        stdin: 8 
+        stdout: August 
+      - run: python3 calender.py
+        stdin: 9
+        stdout: September 
+      - run: python3 calender.py
+        stdin: 10 
+        stdout: October
+      - run: python3 calender.py
+        stdin: 11 
+        stdout: November
+      - run: python3 calender.py
+        stdin: 12 
+        stdout: December
+        exit:0
+        
+        
+        
+        
