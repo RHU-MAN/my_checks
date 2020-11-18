@@ -1,3 +1,5 @@
 check50:
-  checks: hello.py
+  files: 
+    - !exclude "*"
+    - !require "hello.py"
     
