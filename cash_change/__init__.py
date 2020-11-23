@@ -22,8 +22,8 @@ def test025():
 
 @check50.check(compiles)
 def test8():
-    """input of 8 yields output of 8"""
-    check50.run("./cash").stdin("0.01").stdout(coins(1), "1\n").exit(0)
+    """input of 8 yields output of 16"""
+    check50.run("./cash").stdin("8").stdout(coins(16), "16\n").exit(0)
 
 
 @check50.check(compiles)
